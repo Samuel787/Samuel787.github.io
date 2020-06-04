@@ -134,7 +134,7 @@
                                             <b>Programmer</b> <!--edit the designation if you are in different profession-->
                                         </span>
                                     </h1>
-                                    <a href="../resume/Samuel_Resume.pdf" class="banner-btn w3ls_more" target="_blank">View CV</a>
+                                    <a href="../resume/Samuel_Resume.pdf" class="banner-btn w3ls_more" target="_blank" onclick="openResume();">View CV</a>
                                     <a href="#contact" class="banner-btn">Contact me</a>
 
 
@@ -2061,6 +2061,13 @@
     dots[slideIndex-1].className += " active1";
     }
 
+</script>
+
+<script>
+    function openResume() {
+        var win = window.open("https://samuel787.github.io/resume/Samuel_Resume.pdf", "_blank");
+        win.focus();
+    }
 </script>
 
 </body>
